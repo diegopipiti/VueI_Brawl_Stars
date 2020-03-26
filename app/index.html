@@ -20,17 +20,17 @@
             <article class="media">
                 <figure class="media-left">
                     <img class="image is-64x64"
-                    src="../public/images/submissions/image-yellow.png">
+                    v-bind:src="brawlers[0].brawlerImage">
                 </figure>
                 <div class="media-content">
                     <div class="content">
                         <p>
                             <strong>
-                                <a href="#" class="has-text-info">Yellow Pail</a>
-                                <span class="tag is-small">#4</span>
+                                <a v-bind:href="brawlers[0].url" class="has-text-info">{{brawlers[0].nomeIta}}</a>
+                                <span class="tag is-small">#{{brawlers[0].id}}</span>
                             </strong>
                             <br>
-                                On-demand sand castle construction expertise.
+                                {{brawlers[0].descrizione}}
                             <br>
                             <small class="is-size-7">
                                 Submitted by:
@@ -43,7 +43,7 @@
                 <div class="media-right">
                     <span class="icon is-small">
                         <i class="fa fa-chevron-up"></i>
-                        <strong class="has-text-info">10</strong>
+                        <strong class="has-text-info">{{brawlers[0].trofei}}</strong>
                     </span>
                 </div>
             </article>
