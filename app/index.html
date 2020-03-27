@@ -18,7 +18,11 @@
 
         <div class="section">
             <article class="media" v-for="brawler in sortedBrawlers" v-bind:key="brawler.id">
-                <brawler-component></brawler-component>
+                <brawler-component
+                v-bind:brawler="brawler"
+                v.bind:brawlers="sortedBrawlers"
+                >
+                </brawler-component>
             </article>
         </div>
 

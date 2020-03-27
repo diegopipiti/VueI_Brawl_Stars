@@ -33,8 +33,18 @@ const brawlerComponent = {
                 <strong class="has-text-info">{{brawler.trofei}}</strong>
             </span>
         </div>
-    </div>
-    `
+    </div>`,
+
+    props: ['brawler', 'brawlers'],
+
+    methods: {
+        upVote(brawlerId){
+            const brawler = this.brawlers.find(
+                brawler => brawler.id === brawlerId
+            );
+            brawler.votes++;
+        }
+    }
 };
 
 
