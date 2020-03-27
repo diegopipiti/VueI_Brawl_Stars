@@ -17,10 +17,13 @@
         <h2 class="title has-text-centered dividing-header">Brawl Stars!</h2>
 
         <div class="section">
-            <article class="media" v-for="brawler in sortedBrawlers" v-bind:key="brawler.id">
+            <article class="media" 
+                v-for="brawler in sortedBrawlers" 
+                v-bind:key="brawler.id"
+                v-bind:class="{ 'blue-border': brawler.trofei >= 20 }">
                 <brawler-component
                 v-bind:brawler="brawler"
-                v.bind:brawlers="sortedBrawlers"
+                v-bind:brawlers="sortedBrawlers"
                 >
                 </brawler-component>
             </article>

@@ -1,5 +1,5 @@
 const brawlerComponent = {
-    tempalte:
+    template:
     `
     <div style="display: flex; width: 100%">
         <figure class="media-left">
@@ -28,7 +28,7 @@ const brawlerComponent = {
             </div>
         </div>
         <div class="media-right">
-            <span class="icon is-small" v-on:click="upvote(brawler.id)">
+            <span class="icon is-small" v-on:click="upVote(brawler.id)">
                 <i class="fa fa-chevron-up"></i>
                 <strong class="has-text-info">{{brawler.trofei}}</strong>
             </span>
@@ -42,7 +42,7 @@ const brawlerComponent = {
             const brawler = this.brawlers.find(
                 brawler => brawler.id === brawlerId
             );
-            brawler.votes++;
+            brawler.trofei++;
         }
     }
 };
@@ -52,18 +52,18 @@ new Vue({
     el: '#app',
     
     data: {
-        submissions: Seed.submissions
+        brawlers: Seed.brawlers
     },
     
     computed: {
-        sortedSubmissions () {
-            return this.submissions.sort((a, b) => {
-            return b.votes - a.votes
+        sortedBrawlers () {
+            return this.brawlers.sort((a, b) => {
+            return b.trofei - a.trofei
             });
         }
     },
 
     components: {
-        'submission-component': submissionComponent
+        'brawler-component': brawlerComponent
     }
 });
