@@ -28,7 +28,7 @@ window.Seed = (function(){
             id: 3,
             nomeEng: 'Bo',
             nomeIta: 'Bo',
-            descrizione: 'Bo ha una salute abbastanza alta e spara frecce esplosive che infliggono danni moderati a lunga distanza.',
+            descrizione: 'Bo ha una salute abbastanza alta e spara frecce esplosive che infliggono danni moderati a lunga distanza. Bo è un brawler fastidioso ed è famoso per le sue bombette che fanno danno ad area. Anche le frecce fanno danno ad area. E` molto utilizzato nella mappa Caccia la Tesoro. ',
             url: 'https://brawlstars.fandom.com/wiki/Bo',
             trofei: 15,
             puntiVita: 4680,
@@ -60,7 +60,18 @@ window.Seed = (function(){
             avatar: '../public/images/avatars/Penny.png',
             brawlerImage: '../public/images/submissions/Penny.png',
         },
-        
+        {
+            id: 6,
+            nomeEng: 'Colt',
+            nomeIta: 'Colt',
+            descrizione: 'Colt spara da lontano con due pistole. Ha una stellina dietro il vestito. Curiosità: ha due pistole ma ha una sola fondina.',
+            url: 'https://brawlstars.fandom.com/wiki/Penny',
+            trofei: 0,
+            puntiVita: 4160,
+            attacco:1170,
+            avatar: '../public/images/avatars/Penny.png',
+            brawlerImage: '../public/images/submissions/Penny.png',
+        },
         
     ];
 
