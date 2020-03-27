@@ -9,7 +9,7 @@ window.Seed = (function(){
             trofei: 61,
             puntiVita: 3380,
             attacco:416,
-            avatar: '../public/images/avatars/daniel.jpg',
+            avatar: '../public/images/avatars/Rico.png',
             brawlerImage: '../public/images/submissions/Rico.png',
         },
         {
@@ -21,7 +21,7 @@ window.Seed = (function(){
             trofei: 34,
             puntiVita: 7020,
             attacco:598,
-            avatar: '../public/images/avatars/kristy.png',
+            avatar: '../public/images/avatars/Rosa.png',
             brawlerImage: '../public/images/submissions/Rosa.png',
         },
         {
@@ -33,7 +33,7 @@ window.Seed = (function(){
             trofei: 15,
             puntiVita: 4680,
             attacco:676,
-            avatar: '../public/images/avatars/molly.png',
+            avatar: '../public/images/avatars/Bo.png',
             brawlerImage: '../public/images/submissions/Bo.png',
         },
         {
@@ -45,8 +45,20 @@ window.Seed = (function(){
             trofei: 19,
             puntiVita: 4160,
             attacco:1092,
-            avatar: '../public/images/avatars/veronika.jpg',
+            avatar: '../public/images/avatars/Jessie.png',
             brawlerImage: '../public/images/submissions/Jessie.png',
+        },
+        {
+            id: 5,
+            nomeEng: 'Penny',
+            nomeIta: 'Penny',
+            descrizione: 'Penny ha salute media e un attacco a lungo raggio che esplode quando colpisce un bersaglio. Il suo mortaio ha una salute discreta e fa danni elevati',
+            url: 'https://brawlstars.fandom.com/wiki/Penny',
+            trofei: 12,
+            puntiVita: 4160,
+            attacco:1170,
+            avatar: '../public/images/avatars/Penny.png',
+            brawlerImage: '../public/images/submissions/Penny.png',
         },
         
         

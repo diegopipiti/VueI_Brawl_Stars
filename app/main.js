@@ -3,7 +3,7 @@ const brawlerComponent = {
     `
     <div style="display: flex; width: 100%">
         <figure class="media-left">
-            <img class="image is-64x64"
+            <img class="image is-64x64 image is-64x92"
             v-bind:src="brawler.brawlerImage">
         </figure>
         <div class="media-content">
